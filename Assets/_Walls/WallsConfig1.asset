@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba57873acbad2b488e39f2b1e19a8bf, type: 3}
+  m_Name: WallsConfig1
+  m_EditorClassIdentifier: 
+  WallsMaterials:
+  - Id: 0
+    Material: {fileID: 2100000, guid: eec47206538d3654497e8864874beb8a, type: 2}
+  - Id: 1
+    Material: {fileID: 2100000, guid: dfd01fbe7af8c454dbb2fc1b66c5f90e, type: 2}
+  - Id: 2
+    Material: {fileID: 2100000, guid: bd9391b11f8457e45a1d5b554e79cabe, type: 2}
+  - Id: 3
+    Material: {fileID: 2100000, guid: 343bac93abd4197498bdca79fb80febc, type: 2}
+  - Id: 4
+    Material: {fileID: 2100000, guid: 869e043586befc84fa8cb3a996ed4bcb, type: 2}
+  Objects:
+  - Id: 1
+    Name: Big Window
+    View: {fileID: 9101670888750916613, guid: b1cb1197befbc2a48b23af283dc5de5c, type: 3}
+    Hole: {fileID: 46783361270020992, guid: f294c0d2a289621458d974af51325605, type: 3}
+    Size: {x: 2, y: 2}
+    MakeHole: 1
+    Door: 0
+  - Id: 2
+    Name: Height Window
+    View: {fileID: 2192161033148013610, guid: 1f8e7ada60d78f642b926e9a2bd60459, type: 3}
+    Hole: {fileID: 4606222352175456247, guid: 63b9647a2df9cbc42a6f1a7f2e53ed50, type: 3}
+    Size: {x: 1, y: 2}
+    MakeHole: 1
+    Door: 0
+  - Id: 3
+    Name: Simple Window
+    View: {fileID: 1345636961708218250, guid: 70f3ac9ab4371b6449c4a9fdfba6b022, type: 3}
+    Hole: {fileID: 5395819316431195350, guid: 231f62d46b0a3ce43af2b08c0f1a1fbc, type: 3}
+    Size: {x: 1, y: 1}
+    MakeHole: 1
+    Door: 0
+  - Id: 4
+    Name: Hole
+    View: {fileID: 0}
+    Hole: {fileID: 3033650522347242543, guid: a9bf8fc9659cdc042b7ceec680c3ed83, type: 3}
+    Size: {x: 1.5, y: 2}
+    MakeHole: 1
+    Door: 1
+  - Id: 5
+    Name: Door 1
+    View: {fileID: 6777133670554707944, guid: 4b9bf2023bb14134dbe8f0a481437563, type: 3}
+    Hole: {fileID: 3349925207698656751, guid: a3594247a0efe9b4b9282f94ed22fbe7, type: 3}
+    Size: {x: 0.8, y: 2}
+    MakeHole: 1
+    Door: 1
+  Walls:
+  - StartPosition: {x: 0, y: 0}
+    EndPosition: {x: 5, y: 0}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 0
+    MaterialRightId: 0
+    MaterialBackId: 2
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects:
+    - Id: 5
+      Position: {x: 3, y: 0}
+  - StartPosition: {x: 0, y: 0}
+    EndPosition: {x: 0, y: 3}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 2
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects: []
+  - StartPosition: {x: 0, y: 3}
+    EndPosition: {x: 2, y: 5}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 2
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects:
+    - Id: 3
+      Position: {x: 1, y: 1}
+  - StartPosition: {x: 2, y: 5}
+    EndPosition: {x: 5, y: 5}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 2
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects: []
+  - StartPosition: {x: 5, y: 5}
+    EndPosition: {x: 5, y: 1}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 2
+    MaterialRightId: 0
+    MaterialBackId: 1
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects:
+    - Id: 4
+      Position: {x: 1, y: 0}
+  - StartPosition: {x: 5, y: 1}
+    EndPosition: {x: 5, y: 0}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 2
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects: []
+  - StartPosition: {x: 5, y: 5}
+    EndPosition: {x: 5, y: 10}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 4
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: -1
+    EndOffset: 0
+    Objects: []
+  - StartPosition: {x: 5, y: 10}
+    EndPosition: {x: 11, y: 10}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 4
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects:
+    - Id: 2
+      Position: {x: 1, y: 0.5}
+    - Id: 2
+      Position: {x: 4, y: 0.5}
+  - StartPosition: {x: 11, y: 10}
+    EndPosition: {x: 11, y: 5}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 4
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: -1
+    Objects: []
+  - StartPosition: {x: 5, y: 5}
+    EndPosition: {x: 11, y: 5}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 1
+    MaterialRightId: 0
+    MaterialBackId: 4
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects:
+    - Id: 5
+      Position: {x: 2, y: 0}
+  - StartPosition: {x: 13, y: 5}
+    EndPosition: {x: 13, y: 1}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 1
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects: []
+  - StartPosition: {x: 11, y: 5}
+    EndPosition: {x: 13, y: 5}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 1
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: 0
+    Objects: []
+  - StartPosition: {x: 13, y: 1}
+    EndPosition: {x: 5, y: 1}
+    Thickness: -1
+    Height: -1
+    MaterialFrontId: 1
+    MaterialRightId: 0
+    MaterialBackId: 0
+    MaterialLeftId: 0
+    StartOffset: 0
+    EndOffset: -1
+    Objects:
+    - Id: 1
+      Position: {x: 2, y: 0.5}
+    - Id: 1
+      Position: {x: 5, y: 0.5}
+  WallHeight: 3
+  WallThickness: 0.2
+  MaterialTopBottom: {fileID: 2100000, guid: b63d36da496ef744fb71e521e967853f, type: 2}
